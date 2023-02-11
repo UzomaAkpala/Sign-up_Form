@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    border: 3px solid black;
+    width: 80%;
+    height: 750px;
+    
+}
+.image {
+    height: 100%;
+    position: relative;
+}
+.odinLogoContainer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 500px;
+    margin-top: -628px;
+    position: absolute;
+}
+h1 {
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.odinLogo {
+    background-color: rgba(0, 0, 0, 0.074);
+    height: 120px;
+   
+}
+.odinLetters {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.pDiv {
+    background-color: rgb(227, 234, 251);
+    height: 33%;
+    width: 755px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+.formContainer {
+    height: 36%;
+    background-color: rgb(240, 242, 246);
+    margin-top: -22px;
+    
+}
+
+.formContainer1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formContainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;   
+}
+
+input {
+    width: 250px;
+    height: 20px;
+}
+.formContainer3 {
+    display: flex;
+    height: 200px;
+}
+
+input,label {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.submitSection {
+    height: 245px;
+    background-color: rgb(227, 234, 251);
+}
+
+button {
+    background-color: rgb(17, 84, 17);
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: black;
+    color: lawngreen;
+    border-radius: 0px 30px;
+    border: 2px solid white;
+}
+
+
+.bottom {
+    display: flex;
+}
+
+.pEnding {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 250px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 60px;
+}
+
